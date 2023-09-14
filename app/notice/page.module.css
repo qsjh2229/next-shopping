@@ -1,0 +1,13 @@
+.notice{padding: 100px 50px;}
+.notice h4{padding-bottom: 5px; border-bottom: solid #ccc 1px; text-align: center; }
+.notice table { border-collapse: collapse; margin-top: 20px; margin-bottom: 20px;}
+.notice  table {width: 100%;}
+.notice table th { border:  1px solid #ddd; padding: 5px 0; }
+.notice table th:nth-child(1) { width: 5%;}
+.notice table th:nth-child(2) { width: 65%; }
+.notice table th:nth-child(3) { width: 10%;}
+.notice table th:nth-child(4) { width: 10%;}
+.notice table th:nth-child(5) { width: 10%;}
+.notice table td:nth-child(2) { width: 65%;  }
+.notice table tr {}
+.notice p { text-align: center;}
