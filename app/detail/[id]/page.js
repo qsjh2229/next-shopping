@@ -2,6 +2,7 @@ import Link from "next/link"
 import styles from "./page.module.css"
 import { connectDB } from "@/utill/database"
 import { ObjectId } from "mongodb"
+import Cart from "@/component/Cart"
 
 export default async function Detail(props) {
    const client = await connectDB
@@ -23,6 +24,7 @@ export default async function Detail(props) {
                <p className={styles.dilivery}> <span>배송비</span> 만원 이상 무료배송</p>
                <p className={styles.color}> <span className={styles.span}>color</span> <input type="text" /></p>
                <p className={styles.size}><span className={styles.span}> size</span> <input type="text" /></p>
+               <Cart result={result}/>
             </div>
          </div>
       </div>

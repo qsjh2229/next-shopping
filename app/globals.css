@@ -192,3 +192,19 @@ footer .footer-inner{width: 100%; max-width: 1300px; margin: 0 auto; padding: 30
 .commit .input .button{}
 .commit  .button{ border: none; padding: 5px 10px; background: teal;} 
 .commit .commitW{margin-bottom: 20PX;}
+.cart{ margin-top: 50px;}
+.number{text-align: center; padding: 5px;}
+.minus{ display:  inline-block; border-radius: 5px; padding: 5px 10px; cursor: pointer; text-align: center; border: 1px solid #ddd;}
+.plus{ display:  inline-block; border-radius: 5px; padding:  5px 10px; cursor: pointer; text-align: center; border: 1px solid #ddd; margin-right: 5px;}
+.cartBtn{ background: none; border:  1px solid #c6ffcb; padding: 5px 0; width: 150px; margin-right: 5px; cursor: pointer;}
+.buy{background: #c6ffcb;padding: 5px 0; width: 150px; margin-right: 5px; cursor: pointer; border: none;} 
+
+
+.cartList{}
+.cartList tr{}
+.cartList td{border-bottom: 1px solid #ddd; padding: 20px 0;  text-align: center;}
+.cartList td:nth-child(2) {border-bottom: 1px solid #ddd; padding: 20px 0; text-align: left; }
+.cartList td input{}
+.cartList td  span{}
+.cartList td  span img{ width: 130px; vertical-align: middle;}
+.cartList td  strong{margin-left: 50px;}
